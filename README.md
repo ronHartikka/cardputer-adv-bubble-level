@@ -4,9 +4,9 @@ A round, 2-axis bubble level for the **M5Stack Cardputer-ADV**, using the on-boa
 
 ## Demo
 
-https://github.com/ronHartikka/cardputer-adv-bubble-level/raw/main/demo/bubble_level.mp4
+https://github.com/user-attachments/assets/fb3efb98-453e-4aa0-9718-1e9eb175959b
 
-> If the video doesn't play inline, [download or open it directly](demo/bubble_level.mp4).
+> Full-quality 1080p source: [`demo/bubble_level.mp4`](demo/bubble_level.mp4).
 
 ## Features
 
