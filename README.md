@@ -7,6 +7,8 @@ A round, 2-axis bubble level for the **M5Stack Cardputer-ADV**, using the on-boa
 https://github.com/user-attachments/assets/fb3efb98-453e-4aa0-9718-1e9eb175959b
 
 > Full-quality 1080p source: [`demo/bubble_level.mp4`](demo/bubble_level.mp4).
+>
+> **Note:** the video was recorded before a Y-axis fix — in the clip the bubble drifts opposite to the tilt vertically. The current code moves the bubble correctly toward the high side of the case on both axes.
 
 ## Features
 
