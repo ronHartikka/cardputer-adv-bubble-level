@@ -78,7 +78,7 @@ void loop() {
 
   const float scale = (LEVEL_R - BUBBLE_R) / FULL_SCALE_G;
   int bx = CENTER_X + (int)lroundf(cx * scale);
-  int by = CENTER_Y + (int)lroundf(cy * scale);
+  int by = CENTER_Y - (int)lroundf(cy * scale);   // IMU Y is inverted vs display Y
 
   // Clamp bubble inside the ring
   const float dx = (float)(bx - CENTER_X);
