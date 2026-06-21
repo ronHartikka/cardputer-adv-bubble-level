@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/fb3efb98-453e-4aa0-9718-1e9eb175959b
 - Live pitch / roll / total-tilt readout in the corner.
 - Bubble turns **green** when you're within 1° of level.
 - **Zero / calibrate**: press **C** or **space** to capture the current pose as "level" (compensates for the table you set the device on).
-- **Reset**: press **R** to go back to true gravity.
+- **Reset**: press **R** to clear the calibration and show tilt relative to the IMU's case-mounted axes (i.e. flat = however the sensor is seated against the back of the case, not necessarily true world level).
 
 ## Hardware
 
@@ -34,7 +34,7 @@ https://github.com/user-attachments/assets/fb3efb98-453e-4aa0-9718-1e9eb175959b
 | Key       | Action                                                    |
 | --------- | --------------------------------------------------------- |
 | **C** / space | Capture current tilt as the new zero (the bubble centers) |
-| **R**     | Clear calibration; show true gravity again                |
+| **R**     | Clear calibration; tilt is shown relative to the IMU-on-case axes |
 
 ## Tweaking
 
